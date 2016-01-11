@@ -185,8 +185,6 @@ result.va_reg_error = va_reg_error(epoch_opt);
 result.te_reg_error =te_reg_error(epoch_opt);
 result.te_cls_error = te_class_error(epoch_opt);
 
-
-% % 
 % %Plotting Results
 x = 1:1:epoch;
 figure (1)
