@@ -1,0 +1,19 @@
+Read Me
+
+To run any of the algorithms open and run train_"algorith" 
+
+train_MOM
+train_SSAB
+train_RPROP
+train_GA
+train_PSO
+
+The parameters for each algorithm can be adjusted in these scripts, different datasets can also be tested by changing the file name loaded to 'data_sets'
+
+eg. 
+
+data_sets = load('horse1')
+
+To perform the statistical analysis, open train_stat, ensure that the train_'algorithm' file is set up how you want. In train_stat replace the current training algorithm with the one you wish to train.
+
+All the probing data sets have been loaded into .mat files using the script preprocess_proben1. The mat files are included in the file.
